@@ -120,7 +120,7 @@
 					$('form').formerize();
 
 			// Gallery
-				$('.gallery').poptrox(_settings.poptrox);
+				//$('.gallery').poptrox(_settings.poptrox);
 
 			// Events
 			
