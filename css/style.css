@@ -554,7 +554,7 @@
 		
 			.main.style3 {
 				text-align: center;
-				padding: 6em 0 6em 0;
+				padding: 2em 0 2em 0;
 			}
 
 				.main.style3 .content {
@@ -1131,6 +1131,11 @@
 /*********************************************************************************/
 
 	#work {
+
+		background: url('../images/papertexture1.jpg');
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: center center;
 	}
 	
 		#work .row.images {
@@ -1167,6 +1172,55 @@
 				}
 			
 				#work .row.images.inactive .image.r {
+					left: 14em;
+				}
+
+/*********************************************************************************/
+/* Our partners                                                                  */
+/*********************************************************************************/
+
+	#partners {
+
+		background: url('../images/papertexture.jpg');
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: center center;
+	}
+	
+		#partners .row.images {
+		}
+	
+			#partners .row.images .image {
+				position: relative;
+				top: 0;
+				left: 0;
+				opacity: 1.0;
+			
+				-moz-transition: all 1s ease;
+				-webkit-transition: all 1s ease;
+				-o-transition: all 1s ease;
+				-ms-transition: all 1s ease;
+				transition: all 1s ease;
+				
+				-moz-transform: translateZ(0);
+				-webkit-transform: translateZ(0);
+				-o-transform: translateZ(0);
+				-ms-transform: translateZ(0);
+				transform: translateZ(0);
+			}
+		
+			#partners .row.images.inactive {
+			}
+
+				#partners .row.images.inactive .image {
+					opacity: 0;
+				}
+			
+				#partners .row.images.inactive .image.l {
+					left: -14em;
+				}
+			
+				#partners .row.images.inactive .image.r {
 					left: 14em;
 				}
 			
