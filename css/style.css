@@ -1,6 +1,17 @@
 @charset 'UTF-8';
 @import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,900);
-@font-face{font-family:'FontAwesome';src:url('font/fontawesome-webfont.eot?v=4.0.1');src:url('font/fontawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.0.1') format('woff'),url('font/fontawesome-webfont.ttf?v=4.0.1') format('truetype'),url('font/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
+@font-face{font-family:'FontAwesome';src:url('font/fontawesome-webfont.eot?v=4.0.1');src:url('font/fontawesome-webfont.eot?#iefix&v=4.0.1') format('embedded-opentype'),url('font/fontawesome-webfont.woff?v=4.0.1') format('woff'),url('font/fontawesome-webfont.ttf?v=4.0.1') format('truetype'),url('font/fontawesome-webfont.svg?v=4.0.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal;
+}
+
+@font-face{font-family: 'Copperplate';
+	src: url('font/copperplate-gothic-bold-regular.ttf')
+	format('truetype');
+}
+
+@font-face{	font-family: 'Edwardian';
+	src: url('font/edwardian-script-itc.ttf')
+	format('truetype');
+}
 
 /*********************************************************************************/
 /* Basic                                                                         */
@@ -1052,6 +1063,12 @@
 		#logo a {
 			font-size: 1.25em;
 		}
+
+		#logo img {
+			width: 40px;
+			height: 40px;
+			margin:-10px 10px;
+		}
 	
 	#nav {
 		position: absolute;
@@ -1514,5 +1531,15 @@
 
 	.midtext
 	{
-		
+
+	}
+
+	.copperplatefont
+	{
+		font-family: 'Copperplate', 'Source Sans Pro', sans-serif;
+	}
+
+	.edwardianfont
+	{
+		font-family: 'Edwardian', 'Source Sans Pro', sans-serif;
 	}
