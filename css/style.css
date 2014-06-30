@@ -1132,7 +1132,7 @@
 
 	#work {
 
-		background: url('../images/papertexture1.jpg');
+		background: url('../images/papertexture.jpg');
 		background-size: cover;
 		background-attachment: fixed;
 		background-position: center center;
@@ -1479,3 +1479,40 @@
 			body.touch .poptrox-popup .closer {
 				opacity: 1.0 !important;
 			}
+
+
+	.thumb
+	{
+		display: block;
+		position: relative;
+		background: #1a1f2c;
+		background: rgba(255,255,255,0.25);
+	}
+	
+		.thumb h2
+		{
+			position: absolute;
+			bottom: 0;
+			left: 0;
+			background: #1a1f2c;
+			background: rgba(18,21,29,0.85);
+			width: 100%;
+			padding: 0.5em;
+			font-weight: 300;
+			line-height: 1em;
+			z-index: 2;
+			font-size: 1em;
+			letter-spacing: 0px;
+		}
+		
+		.thumb img
+		{
+			display: block;
+			z-index: 1;
+		}
+
+
+	.midtext
+	{
+		
+	}
