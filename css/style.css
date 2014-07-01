@@ -13,6 +13,11 @@
 	format('truetype');
 }
 
+@font-face{	font-family: 'Imprint';
+	src: url('font/imprint.ttf')
+	format('truetype');
+}
+
 /*********************************************************************************/
 /* Basic                                                                         */
 /*********************************************************************************/
@@ -1069,6 +1074,12 @@
 			height: 40px;
 			margin:-10px 10px;
 		}
+
+		#logo .custom {
+			width: 200px;
+			height: 50px;
+			margin:-16px 0px;
+		}
 	
 	#nav {
 		position: absolute;
@@ -1534,9 +1545,9 @@
 
 	}
 
-	.copperplatefont
+	.imprintfont
 	{
-		font-family: 'Copperplate', 'Source Sans Pro', sans-serif;
+		font-family: 'Imprint', 'Source Sans Pro', sans-serif;
 	}
 
 	.edwardianfont
