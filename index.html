@@ -10,6 +10,8 @@
 		<script src="js/jquery.poptrox.min.js"></script>
 		<script src="js/skel.min.js"></script>
 		<script src="js/init.js"></script>
+		<script src="js/dropdown.js"></script>
+		<link rel="stylesheet" href="css/dropdown.css" />
 		<noscript>
 			<link rel="stylesheet" href="css/skel-noscript.css" />
 			<link rel="stylesheet" href="css/style.css" />
@@ -22,8 +24,26 @@
 			<header id="header" style="background-color:#E6E6E6;">
 
 				<!-- Logo -->
-					<h1 id="logo"><img src="images/logo.png" title="continuat logo" alt="continuat logo"><img class="custom" src="images/shriftLQ.png" title="continuat remade font" alt="continuat font"><a href="#" class="imprintfont" style="font-size:1em; color:rgb(21,28,255); letter-spacing:0.1em;"></a></h1>
-				
+					<div>
+						<h1 id="logo"><img src="images/logo.png" title="continuat logo" alt="continuat logo"><img class="custom" src="images/shriftLQ.png" title="continuat remade font" alt="continuat font"><a href="#" class="imprintfont" style="font-size:1em; color:rgb(21,28,255); letter-spacing:0.1em;"></a></h1>
+
+						<div class="dropdown">
+							<i class="fa fa-caret-square-o-down" type="button" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"></i>
+							
+							<ul class="dropdown-menu dropdown-menu-left" aria-labelledby="dropdownMenu">
+								<li><a href="#intro">Intro</a></li>
+								<li><a href="#one">What We Do</a></li>
+								<li><a href="#two">Who We Are</a></li>
+								<li><a href="#work">Our Work</a></li>
+								<li><a href="#rewards">Rewards</a></li>
+								<li><a href="prologue/catalogue.html">Catalogue</a></li>
+								<li><a href="#"><strong>Shop</strong></a></li>
+								<li><a href="#partners">Our Partners</a></li>
+							</ul>
+						</div>
+
+					</div>
+
 				<!-- Nav -->
 					<nav id="nav">
 						<ul>
@@ -37,7 +57,6 @@
 							<li><a href="#partners">Our Partners</a></li>
 						</ul>
 					</nav>
-
 			</header>
 			
 		<!-- Intro -->

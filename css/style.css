@@ -1554,3 +1554,44 @@
 	{
 		font-family: 'Edwardian', 'Source Sans Pro', sans-serif;
 	}
+
+.dropdown {
+	display: none;
+}
+
+
+@media screen and (max-width: 1068px) {
+  .dropdown {
+    display: block;
+    float: right;
+    position: inherit !important;
+  }
+
+  .dropdown-menu {
+  	right: 0;
+  	left: inherit !important;
+  	border: none !important;;
+  	border-radius: 0 !important;
+  	background-color: rgb(230, 230, 230) !important;
+  	min-width: 220px !important;
+  	font-size: 1.5em !important;
+  	margin: 0 !important;
+  }
+
+  .dropdown-menu li {
+  	padding: 0.2em;
+  }
+
+  .dropdown-menu li a {
+  	text-decoration: none !important;
+  }
+
+  #dropdownMenu {
+  	color: #c20114;
+  	padding-right: 20px;
+  }
+
+  #nav {
+  	display: none;
+  }
+}
