@@ -1607,4 +1607,20 @@
 	#logo .custom {
 		display: none;
 	}
+
+	#nav ul li {
+		font-size: 0.5em;
+	}
+}
+
+@media screen and (max-width: 410px) {
+	#nav ul li {
+		font-size: 0.4em;
+	}
+}
+
+@media screen and (max-width: 350px) {
+	#logo {
+		display: none;
+	}
 }
