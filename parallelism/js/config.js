@@ -85,8 +85,8 @@ $(function() { h5u_parallelism.init({
 					
 					// Desktop only
 						centerVertically:	true,		// If true, reel will be vertically centered 
-						introDelay:			600,		// Delay (in ms) before showing the reel
-						introSpeed:			750,		// Speed (in ms) at which to fade in reel
+						introDelay:			300,		// Delay (in ms) before showing the reel (OPTIMIZED from 600)
+						introSpeed:			500,		// Speed (in ms) at which to fade in reel (OPTIMIZED from 750)
 						itemHeight:			230,		// Height (in px) of items
 						itemWidth:			300,		// Default width (in px) of width
 						marginBottom:		40,			// Margin (in px) to preserve at the bottom of the viewport
@@ -102,9 +102,9 @@ $(function() { h5u_parallelism.init({
 						scrollZoneAmount:	10,			// Scroll amount when using scroll zones
 						scrollZoneDelay:	20,			// Time (in ms) to wait between scrolls when the cursor is in a scroll zone
 						scrollZoneWidth:	40,			// Width of scroll zones
-						thumbDelay:			1200,		// Delay (in ms) before showing thumbnails
-						thumbDelaySpread:	1500,		// Spread (in ms) to randomly stagger thumbnails (0 = don't stagger)
-						thumbSpeed:			750,		// Speed (in ms) at which to fade in thumbnails
+						thumbDelay:			200,		// Delay (in ms) before showing thumbnails (OPTIMIZED from 1200)
+						thumbDelaySpread:	400,		// Spread (in ms) to randomly stagger thumbnails (OPTIMIZED from 1500)
+						thumbSpeed:			400,		// Speed (in ms) at which to fade in thumbnails (OPTIMIZED from 750)
 						useBlurFilter:		true,		// If true, page will blur slightly when the popup is displayed (webkit only)
 						useScrollKeys:		true,		// If true, the left/right arrow keys will scroll the reel
 						useScrollZones:		true		// If true, moving the cursor to the leftmost/rightmost edges of the reel will scroll it
